@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML FORMS.</title><hr>
+        <style>
+            textarea{
+                background-color: aqua;
+            }
+            form{
+                background-color: powderblue;
+            }
+            p{
+                background-color: palegreen;
+                font-size: medium;
+            }
+            h4{
+                background-color: darkgrey;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: large;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>LET'S LOOK AT HTML FORMS</h4><hr>
+        <p>A form is a container of inputs. In html, forms have attributes and elements.
+        The two main attributes are ACTION and METHOD.
+        Elements include; input elements e.g TEXT, PASSWORD,SUBMIT, RADIO,CHECKBOX, LABEL 
+    and MULTIPLE-LINE INPUT.</p>
+    <form>
+        <label>
+            FIRST NAME:<input type="text"name="FIRST NAME"/><br>
+        </label>
+        <label>
+            SECOND NAME:<input type="text"name="SECOND NAME"/><br>
+        </label>
+        <label>
+            PASSWORD:<input type="password"name="PASSWORD"/><br>
+        </label>
+        <label>
+            <h5>Which programming language do you prefer?</h5><hr>
+            <input type="radio"name="language"value="Python">Python<br>
+            <input type="radio"name="language"value="Java">Java<br>
+            <input type="radio"name="language"value="C++">C++<br>
+            <input type="radio"name="language"value="JAVASCRIPT">JAVASCRIPT<br>
+        </label>
+        <label>
+            <h5>Select one or more hobbies:</h5><hr>
+            <input type="checkbox"name="hobby"value="Hikking">Hikking<br>
+            <input type="checkbox"name="hobby"value="Farming">Farming<br>
+            <input type="checkbox"name="hobby"value="Listening to music">Listening to music<br>
+        </label>
+    
+           <label><h4>TELL US MORE ABOUT YOURSELF:</h4><hr>
+            <textarea rows="10"cols="50"name="TELL US MORE ABOUT YOURSELF">
+                WRITE HERE:
+            </textarea></label>
+            <label>
+                <input type="submit"name="SUBMIT"value="SUBMIT">
+            </label>
+
+        
+    </form>
+        
+    </body>
+</html>
